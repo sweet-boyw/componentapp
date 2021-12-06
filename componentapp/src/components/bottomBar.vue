@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-12-03 09:23:38
- * @LastEditTime: 2021-12-06 11:22:21
+ * @LastEditTime: 2021-12-06 11:25:10
  * @LastEditors: Please set LastEditors
  * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  * @FilePath: \componentapp\componentapp\src\components\bottomBar.vue
@@ -22,7 +22,7 @@ export default {
                 {
                     title:'首页',
                     path:'/',
-                    name:'Home'
+                    name:'homePage'
                 },
                 {
                     title:'搜索',
