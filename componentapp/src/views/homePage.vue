@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-12-06 11:14:41
- * @LastEditTime: 2021-12-06 16:50:04
+ * @LastEditTime: 2021-12-13 15:37:19
  * @LastEditors: Please set LastEditors
  * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AEte=
  * @FilePath: \componentapp\componentapp\src\views\homePage.vue
@@ -11,6 +11,7 @@
         home
         <p>state:{{count.count}}</p>
         <!-- <button @click="hanlechangecount">点我</button> -->
+        <img preview='2' src="@/assets/logo.png" alt="">
     </div>
 </template>
 <script>
