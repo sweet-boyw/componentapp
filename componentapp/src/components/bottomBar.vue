@@ -1,13 +1,13 @@
 <!--
  * @Author: your name
  * @Date: 2021-12-03 09:23:38
- * @LastEditTime: 2021-12-06 16:47:03
+ * @LastEditTime: 2021-12-14 16:53:13
  * @LastEditors: Please set LastEditors
  * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  * @FilePath: \componentapp\componentapp\src\components\bottomBar.vue
 -->
 <template>
-    <div>
+    <div class="barmian">
         <ul>
             <router-link 
             v-for="(item,index) in menu" 
@@ -57,6 +57,7 @@ ul{
     border-top: 1px solid #ccc;
     padding: 0;
     margin: 0;
+    background-color: aqua;
     li{
         flex: 1;
         list-style: none;
